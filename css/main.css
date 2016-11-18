@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+}
+.gridster {
+    margin: 0 auto;
+    opacity: .8;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+.gridster * {
+  margin:0;
+  padding:0;
+}
+.gridster ul {
+	list-style-type: none;
+    background-color: #EFEFEF;
+}
+.gridster .gs-w {
+    cursor: pointer;
+/*	border: 1px dotted white;
+	box-sizing: border-box;*/
+	background-image: url('http://placekitten.com/g/1000/800');
+}
+
+.gridster .preview-holder {
+    border: none!important;
+    background: red!important;
+}
